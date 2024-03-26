@@ -154,41 +154,41 @@
             <div class="section-column">
                 <h3>Industries</h3>
                 <ul>
-                    <li><a href="#">Telecom</a></li>
-                    <li><a href="#">Utilities</a></li>
-                    <li><a href="#">Land Administration</a></li>
-                    <li><a href="#">Autonomous & Navigation</a></li>
+                    <li><a href="https://www.trai.gov.in/" target="_blank">Telecom</a></li>
+                    <li><a href="https://www.ilo.org/global/industries-and-sectors/utilities-water-gas-electricity/lang--en/index.htm" target="_blank">Utilities</a></li>
+                    <li><a href="https://landgovernance.org/themes/land-administration-data-technology/#:~:text=Land%20administration%20is%20essential%20for,to%20avoid%20land%2Drelated%20conflicts." target="_blank">Land Administration</a></li>
+                    <li><a href="https://www.mathworks.com/videos/series/autonomous-navigation.html" target="_blank">Autonomous & Navigation</a></li>
                 </ul>
             </div>
             <div class="section-column">
                 <h3>Delivery</h3>
                 <ul>
-                    <li><a href="#">Mpower</a></li>
+                    <li><a href="https://www.mpowerfinancing.com/" target="_blank">Mpower</a></li>
                 </ul>
             </div>
             <div class="section-column">
                 <h3>Services</h3>
                 <ul>
-                    <li><a href="#">Geospatial Analysis</a></li>
-                    <li><a href="#">Engineering & Design</a></li>
-                    <li><a href="#">Geospatial Mapping</a></li>
+                    <li><a href="https://www.ibm.com/topics/geospatial-data" target="_blank">Geospatial Analysis</a></li>
+                    <li><a href="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps" target="_blank">Engineering & Design</a></li>
+                    <li><a href="https://spyro-soft.com/blog/geospatial/what-is-geospatial-mapping-and-how-does-it-work" target="_blank">Geospatial Mapping</a></li>
                 </ul>
             </div>
             <div class="section-column">
                 <h3>Company</h3>
                 <ul>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Talk to Us</a></li>
+                    <li><a href="#" target="_blank">Talk to Us</a></li>
                 </ul>
             </div>
             <div class="section-column">
                 <h3>Resources</h3>
                 <ul>
-                    <li><a href="#">Insights</a></li>
-                    <li><a href="#">Statement on privacy</a></li>
-                    <li><a href="#">Anti-slavery statement</a></li>
-                    <li><a href="#">Policy on equality, diversity and inclusion</a></li>
-                    <li><a href="#">Corporate Social Responsibility</a></li>
+                    <li><a href="https://www.oecd.org/education/talis/TALIS2018_insights_and_interpretations.pdf" target="_blank">Insights</a></li>
+                    <li><a href="https://eda.europa.eu/docs/default-source/documents/privacy-statement-eda-website-dpo-72.pdf" target="_blank">Statement on privacy</a></li>
+                    <li><a href="https://s21.q4cdn.com/399680738/files/doc_downloads/2022/06/30/2022-Anti-Slavery-and-Human-Trafficking-Statement.pdf" target="_blank">Anti-slavery statement</a></li>
+                    <li><a href="https://www.lkouniv.ac.in/site/writereaddata/siteContent/Equality-Diversity-and-Inclusion-EDI-Policy_310723.pdf" target="_blank">Policy on equality, diversity and inclusion</a></li>
+                    <li><a href="https://www.mdos.si/wp-content/uploads/2018/04/defining-corporate-social-responsibility.pdf" target="_blank">Corporate Social Responsibility</a></li>
                 </ul>
             </div>
             <div class="section-column">
@@ -220,14 +220,28 @@
 <div id="sidebar" class="sidebar">
     
     <b>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    <a href="#home">---</a>
-    <a href="#about">---</a>
-    <a href="#contact">---</a>
-    <a href="#home">---</a>
+    <a href="../index.html">Home</a>
+	<a href="../index.html #branches">Branches</a>
+    <a href="../index.html #services">Services</a>
+    <a href="#">About Us</a>
+    <a href="../Emp of week/index.html" target="_blank">Employee of the week</a>
+    <a href="#about">Photo Gallery</a>
+	<a href="../index.html #reach">Reach Us</a>
+    <a href="#home" onclick="openPopup()">Talk to Us</a>
     </b>
+</div>
+
+<!-- Popup container -->
+<div id="popup" class="popup-container">
+    <!-- Popup content -->
+    <div class="popup-content">
+        <!-- Cool text -->
+        <div class="cool-text">Talk to US</div>
+        <!-- Close button -->
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <!-- Additional content -->
+        <p>Reach Us we can Talk there!</p>
+    </div>
 </div>
 
 <script src="script.js"></script>
